@@ -1,0 +1,45 @@
+header {
+    background-color: #617674; /* Background color of the navbar */
+    color: #fff; /* Text color */
+    padding: 12px 0; /* Padding around the header */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center vertically within the header */
+}
+
+.logo img {
+    max-width: 30px; /* Maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: auto;
+    font-size: 16px;
+
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 30px; /* Spacing between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+body {
+    background-image: url(class.jpg); /* Set the background image */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-position: center center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Set the container's height to the viewport height for a full-screen image */
+}
+.colored-box img {
+    width: auto;
+    height: 100%;
+}
